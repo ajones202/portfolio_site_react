@@ -1,0 +1,125 @@
+       @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Raleway|Ubuntu+Condensed');
+
+        body {
+          background-image: url(http://res.cloudinary.com/dm6ofsjtd/image/upload/v1527566775/lettercloudedit.png);
+          background-size: contain;
+          background-repeat: no-repeat;
+        }
+        .hero-body {
+          height: 600px;
+          background-image: url(http://res.cloudinary.com/dm6ofsjtd/image/upload/v1527364094/alex-portrait.png);
+          background-size: contain;
+          background-repeat: no-repeat;
+          margin-left: 500px;
+          margin-top: 200px;
+        }
+        .hero-head {
+          background-color: white;
+        }
+        .inner-txt {
+          padding: 40px;
+          margin-top: 50px;
+          font-family: 'Raleway', sans-serif;
+        }
+        .devicon {
+          width: 160px;
+          height: 160px;
+        }
+        .devicon path {
+          width: 160px;
+          height: 160px;
+          fill: #247BA0;
+        }
+         .name {
+          font-family: 'Fjalla One', sans-serif;
+          font-size: 4em;
+          color: #247BA0;
+          text-shadow: 1px 2px black;
+        }
+        .nametitle {
+          font-family: 'Raleway', sans-serif;
+          font-size: 29pt;
+          text-shadow: 1px 1px white;
+        }
+
+        .navbar-item,
+        .button {
+          color: #247BA0;
+          font-family: 'Raleway', sans-serif;
+          font-size: 25px;
+        }
+        .image {
+          box-shadow: 10px 10px 20px #888888;
+        }
+        .tile.is-child {
+          border: none;
+        }
+
+        .proj {
+         opacity: .2;
+        }
+
+
+        .desc_text {
+        padding: 30px;
+        }
+
+
+
+        .txt {
+          background-color: white;
+          width: 410px;
+          height: 240px;
+          padding-top: 50px;
+          padding: 15px;
+          text-align: center;
+          box-shadow: 10px 10px 20px black;
+          border-radius: 5px;
+        }
+
+
+  .card-container {
+    cursor: pointer;
+    height: 316px;
+    perspective: 600;
+    position: relative;
+    width: 316px;
+
+}
+.card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+
+  }
+  .card:hover {
+    transform: rotateY(180deg);
+    background: transparent;
+  }
+  .card .side {
+    backface-visibility: hidden;
+    border-radius: 6px;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    box-shadow: 10px 10px 20px #888888;
+  }
+  .card .back {
+    background: #eaeaed;
+    color: #247BA0;
+    transform: rotateY(180deg);
+}
+
+
+
+
+
+
+
+
+
+
+
