@@ -44,7 +44,6 @@ render() {
               </figure>
               <span className="icon"
               onClick={this.projectsToggle}>
-
           <i className= "fas fa-toolbox"></i></span>
 
           </div>
@@ -58,7 +57,7 @@ render() {
     <div className="side"><img src={projects.image_url}/> alt=""></div>
     <div className="side back has-text-centered desc_text">
     <h1 className="nametitle">{projects.title}</h1>
-    <h1>{projects.description}</h1>
+    <a href={projects.url}><h1>{projects.description}</h1></a>
     </div>
   </div>
 </figure>
@@ -66,7 +65,6 @@ render() {
 onClick={this.projectsToggle}>
 
 <i className= "fas fa-toolbox"></i></span>
-
           <h1>{projects.technologies_used}</h1>
 
           </div>
