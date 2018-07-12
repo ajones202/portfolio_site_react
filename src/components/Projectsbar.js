@@ -25,12 +25,10 @@ if (this.state.moreInfo === false ) {
 }
 
 else {
-  this.setState({ moreInfo: false})
+  this.setState({ moreInfo: false })
   console.log(this.state.moreInfo)
 }
 }
-
-
 
 render() {
   const allProjects = ProjectList.map((projects,i) => {
@@ -47,18 +45,17 @@ render() {
           <i className= "fas fa-toolbox"></i></span>
 
           </div>
-
       )
     } else {
         return (
          <div key={i} className="tile is-child box is-3">
          <figure className="card-container ">
          <div className="card">
-    <div className="side"><img src={projects.image_url}/> alt=""></div>
-    <div className="side back has-text-centered desc_text">
-    <h1 className="nametitle">{projects.title}</h1>
-    <a href={projects.url}><h1>{projects.description}</h1></a>
-    </div>
+         <div className="side"><img src={projects.image_url}/> alt=""></div>
+         <div className="side back has-text-centered desc_text">
+           <h1 className="nametitle">{projects.title}</h1>
+           <a href={projects.url}><h1>{projects.description}</h1></a>
+         </div>
   </div>
 </figure>
 <span className="icon"
@@ -71,7 +68,6 @@ onClick={this.projectsToggle}>
           )
 }
     })
-
 
   return (
         <section>

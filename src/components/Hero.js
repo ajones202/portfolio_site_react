@@ -37,7 +37,7 @@ return (
       </div>
       <div className="section">
         <div className="container has-text-centered">
-        <p className="is-size-4 inner-txt"> As a web developer, my passion is cultivating meaningful user relationships. Possessing a solid background in the e-commerce sphere, I’ve translated my skills and knowledge into crafting captivating, seamless and intuitive front-end experiences.
+        <p className="is-size-4 inner-txt"> As a web developer, my passion is cultivating meaningful user relationships. I have a solid background in ecommerce operations and have worked to develop a number of ecommerce user experiences. I continuously strive to translate my skills and knowledge into crafting captivating, seamless and intuitive interfaces in order to effectively hone into the customer story.
         </p>
         </div>
         </div>
