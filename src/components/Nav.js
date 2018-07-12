@@ -19,15 +19,18 @@ return(
             </div>
             <div id="navbarMenuHeroA" className="navbar-menu">
               <div className="navbar-end">
-
-
+              <a href="https://github.com/ajones202" className="navbar-item">
+                   <span className="icon">
+                    <i className="fab fa-github"></i>
+                  </span>
+                  <span>Github</span>
+                </a>
                 <a href="https://www.linkedin.com/in/alexandria-jones/" className="navbar-item">
                    <span className="icon">
                     <i className="fab fa-linkedin"></i>
                   </span>
                   <span>Linkedin</span>
                 </a>
-
               </div>
              </div>
           </div>
