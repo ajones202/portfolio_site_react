@@ -1,5 +1,4 @@
 import React,{ Component } from 'react';
-import Projectsbar from './Projectsbar';
 
 class Hero extends Component {
   constructor(props) {
@@ -11,9 +10,8 @@ class Hero extends Component {
     this.nameToggle = this.nameToggle.bind(this)
   }
 
-
   nameToggle(word) {
-    const words = ['Creative', 'Thoughtful', 'Strategic', 'Front-End', 'Analytical'];
+    const words = ['Creative', 'Thoughtful', 'Strategic', 'Front-End', 'Analytical', 'Design-Oriented'];
     let randomItem = words[Math.floor(Math.random()*words.length)];
 
     this.setState({word: randomItem})
@@ -22,8 +20,8 @@ class Hero extends Component {
 render() {
 
 return (
-    <section>
-     <div className="intro-box">
+    <section >
+     <div className="intro-box ">
         <div className="hero-body">
           <div className="txt">
             <h1 onMouseEnter={this.nameToggle} className="name">
@@ -37,8 +35,8 @@ return (
       </div>
       <div className="section">
         <div className="container has-text-centered">
-        <p className="is-size-4 inner-txt"> As a web developer, my passion is cultivating meaningful user relationships. I have a solid background in ecommerce operations and have worked to develop a number of ecommerce user experiences. I continuously strive to translate my skills and knowledge into crafting captivating, seamless and intuitive interfaces in order to effectively hone into the customer story.
-        </p>
+        <h1 className="is-size-3-desktop is-size-6-mobile inner-txt"> As a web developer, my passion is cultivating meaningful user relationships. I have a solid background in ecommerce operations and have worked to develop a number of ecommerce user experiences. I continuously strive to translate my skills and knowledge into crafting captivating, seamless and intuitive interfaces in order to effectively hone into the customer story.
+        </h1>
         </div>
         </div>
         </section>

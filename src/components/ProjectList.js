@@ -10,14 +10,14 @@ const ProjectList = [
 {
   title: "Slot Game" ,
   description: "This slot machine was created as my first project for General Assembly's WDI. Utilizing javascript logic as well as Jquery for DOM manipulation, I've created an interactive single player game interface.",
-  technologies_used:"HTML5, CSS3, Javascript",
+  technologies_used:"HTML5, CSS3, Javascript, Jquery",
   image_url:"http://res.cloudinary.com/dm6ofsjtd/image/upload/v1527315020/Screen_Shot_2018-05-26_at_2.08.16_AM.png",
   url: "http://dirty-brake.surge.sh/"
 },
 {
   title:"Crypton" ,
   description:"Seeking to solve the problem of scattered, and varied Crypto wallet platforms, we envisioned a centralized storage solution for cryptocurrency. The easy-to-navigate dashboard allows users to collect, organize, and view current news stories for their coins." ,
-  technologies_used:"React.js, Express.js, Node.js",
+  technologies_used:"React.js, Express.js, Node.js, Bulma",
   image_url: "http://res.cloudinary.com/dm6ofsjtd/image/upload/v1527539178/Crypton2.png",
   url: ""
 },
@@ -28,13 +28,7 @@ title:"Beer Calories",
   image_url:"http://res.cloudinary.com/dm6ofsjtd/image/upload/v1530055903/Screen_Shot_2018-06-04_at_1.32.42_PM.png",
   url:""
 },
-{
-  title:"Queen's Calculator" ,
-  description:"Utilizing CSS styling effects and animations, I've added a whimsical and interactive twist to a basic Javascript calculator" ,
-  technologies_used:"HTML5, CSS3",
-  image_url:"http://res.cloudinary.com/dm6ofsjtd/image/upload/v1527556773/calcthumb.png",
-  url:""
-}
+
 ]
 
 export default ProjectList;
