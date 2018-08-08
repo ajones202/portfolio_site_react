@@ -5,9 +5,7 @@ import solid from '@fortawesome/fontawesome-free-solid';
 
 function Footer() {
 return(
-
-      <div className="hero-foot l">
-        <nav className="section">
+      <div className="hero-foot ">
           <div className="container has-text-centered">
             <p>Made with
              <span className="icon">
@@ -15,7 +13,6 @@ return(
               </span> by Alex
             </p>
           </div>
-        </nav>
       </div>
   )
 }

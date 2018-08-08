@@ -31,14 +31,14 @@ render() {
       )
     })
   return (
-        <section>
-           <div className="section">
-              <h1 className="nametitle">Recent Work</h1>
-            </div>
-            <div className="tile box is-ancestor">
-              {allProjects}
-            </div>
-        </section>
+      <section>
+          <div className="section">
+            <h1 className="nametitle">Recent Work</h1>
+          </div>
+          <div className="tile box is-ancestor">
+            {allProjects}
+           </div>
+      </section>
         )
     }
 }

@@ -15,7 +15,7 @@ class Skillsbar extends Component {
 
 render() {
 return (
-    <section>
+    <section class="skill-list">
       <div className="section"><h1 className="nametitle">Technologies</h1></div>
       <section className="container skill-holder">
       <div className="prev" onClick={this.scroll.bind(null,-1)}>&#10094;</div>

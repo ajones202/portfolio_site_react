@@ -17,6 +17,7 @@
 
         .hero-head {
           background-color: white;
+          border-bottom: 2px solid black;
         }
 
         .inner-txt {
@@ -30,6 +31,13 @@
           width: 160px;
           height: 160px;
 
+        }
+
+        .section:nth-child(2) {
+          margin-top: 30px;
+          background-color: #022142;
+          color: white;
+          box-shadow: 0px 12px 15px 1px grey;
         }
 
         .devicon path {
@@ -134,7 +142,6 @@
            font-size: 42px;
           }
 
-
           .image {
             height: 100px;
             width: 100px;
@@ -143,7 +150,6 @@
             display: inline-block;
             line-height: 100px;
           }
-
 
           .level  {
             overflow-y: hidden;
@@ -183,7 +189,21 @@
             margin-right: 5px;
           }
 
-@media screen and (max-width: 600px) {
+        .hero-foot {
+            display: flex;
+            align-items: center;
+            background-color: #022142;
+            height: 75px;
+            margin-top: 40px;
+            margin-bottom: 0px;
+            color: white;
+          }
+
+          nav.section {
+            height: 10px;
+          }
+
+@media screen and (max-width: 640px) {
         .hero-body {
           margin-left: 0;
           width: 300px;
@@ -193,6 +213,7 @@
         display: flex;
         flex-wrap: wrap;
         width: 300px;
+        height: 150px;
         margin-top: 150px;
         margin-left: 10px;
        justify-content: center;
@@ -205,21 +226,18 @@
 
       h2.nametitle {
         font-size: 30px;
-        padding-bottom: 0px;
+        height: 50px;
       }
 
       .intro-box {
         height: 250px
       }
 
-      div.section {
-        padding-bottom: 0px;
+
+      .section:nth-child(2) {
+        margin-top: 150px;
         padding-top: 0px;
-
-      }
-
-      div.section:nth-child(2) {
-        padding-top: 50px;
+        padding-bottom: 0px;
 
 
       }
@@ -234,6 +252,10 @@
 
       .container .has-text-centered {
         padding: 0px;
+      }
+
+      .tile.is-ancestor:last-child {
+        margin-right: -10px;
       }
 
       form {
